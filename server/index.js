@@ -1,6 +1,8 @@
 const express = require('express');
 const path = require('path');
 const authRouter = require('./routes/auth');
+// const passport = require('passport');
+// const GoogleStrategy = require('passport-google-oidc');
 
 const app = express();
 const port = 3000;
